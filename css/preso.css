@@ -1,0 +1,21 @@
+/* TEFcon 15 - Telefonica's Bootstrap */
+.tc-dialog { margin: 100px; }
+
+.tc-dialog ul {
+  font-size: 30px;
+  list-style: none;
+  line-height: 50px;
+  padding: 0;
+}
+
+h2 small { font-weight: normal; }
+
+h3 { 
+  font-size: 18px;
+  text-align: left;
+  margin: 30px 0 0;
+}
+
+[data-columns].tc-gutter > .tc-sidebar {
+  padding: 0;
+}
