@@ -27,4 +27,53 @@ img.featured {
 
 pre, code {
     font-family: monospace;
+    background: #f2f2f2;
+    color: #0086B3;
+}
+
+pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #cfcece;
+    margin: 20px 0;
+    line-height: 25px;
+    overflow-y: auto;
+    border-radius: 4px;
+    padding: 1em 2em;
+    font-size: 18px;
+}
+
+.slides {
+    text-align: left;
+    font-weight: normal;
+}
+
+.slides header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.slides ul + header {
+    margin-top: 2em;
+}
+
+.slides ul li {
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-top: 0.8em;
+}
+
+.slides p {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.slides blockquote {
+    background: #f2f2f2;
+}
+
+.slides blockquote p {
+    font-weight: normal;
+    padding: 2em;
+    line-height: 1.5em;
 }
