@@ -12,13 +12,18 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Bad practices</a></h1>
+        <h1><a href="">Bad practices - Deeply nested selectors</a></h1>
       </header>
 
       <section class="tc-content">
-          <div class="tc-center">
-              <p><img src="images/demon.png" height="500"></p>
-          </div>
+          <h2>A new form of evil</h2>
+<pre>.post {
+    & > p {
+        a {
+            color: red;
+        }
+    }
+</pre>
       </section>
     </div>
     <script src="js/scripts.js"></script>
