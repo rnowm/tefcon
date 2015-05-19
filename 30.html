@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Telefonica's Bootstrap</title>
+    <link rel="stylesheet" href="css/components.min.css">
+    <link rel="stylesheet" href="css/preso.css">
+    <link rel="stylesheet" href="tools/css/bp-inspector.css" media="all">
+    <script src="tools/js/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="header-wrapper">
+      <header role="banner">
+        <h1>Breakpoint inspector</h1>
+
+        <nav id="breakpoints"></nav>
+        <form id="bp-form">
+          <input id="bp-width" type="text" pattern="[0-9]*"> px
+        </form>
+      </header>
+    </div>
+    <div id="main-wrapper">
+      <div id="iframe-wrapper">
+        <iframe id="iframe" src="demo-layout.html"></iframe>
+      </div>
+    </div>
+    <script src="tools/js/jwerty.js"></script>
+    <script>
+      var breakpoints = { 'XS' : '479',
+                          'SM' : '767',
+                          'MD' : '991',
+                          'LG' : '1166' }
+    </script>
+    <script src="tools/js/bp-inspector.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
