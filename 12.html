@@ -12,16 +12,21 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Matching styles to design</a></h1>
+        <h1><a href="">Bad practices - Deeply nested selectors</a></h1>
       </header>
-      
-      <div class="tc-dialog">
-        <header>2 Configuration option</header>
-        <ul>
-          <li>- Telefonica brands</li>
-          <li>- White label theme</li>
-        </ul>
-      </div>
+
+      <section class="tc-content">
+          <div class="tc-dialog slides">
+          <header>Why is it bad?</header>
+          <p><strong>High specificity!</strong></p>
+          <ul>
+              <li>It makes impossible to re-use code.</li>
+              <li>Very hard to override rules</li>
+              <li>Coupling of HTML and CSS</li>
+          </ul>
+          <p>This leads to a big, difficult-to-maintain code base.</p>
+          </div>
+      </section>
     </div>
     <script src="js/scripts.js"></script>
   </body>

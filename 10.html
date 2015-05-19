@@ -12,14 +12,20 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Matching styles to design</a></h1>
+        <h1><a href="">Bad practices</a></h1>
       </header>
-      
+
       <section class="tc-content">
-        <h2>https://github.com/tef-components/docs</h2>
-        <div class="tc-center">
-          <img src="images/multibrand.png">
-        </div>
+          <div class="tc-dialog slides">
+              <header>Lack of encapsulation</header>
+              <ul>
+                <li>Styles should not <em>bleed</em> out of their components!</li>
+                <li>This makes working with the framework to be hard.</li>
+                <li>Avoid to have rules that affect <code>body</code>, <code>a</code>,
+                    etc. as a whole.</li>
+                <li>Also try to rely on classes instead of nesting.</li>
+              </ul>
+          </div>
       </section>
     </div>
     <script src="js/scripts.js"></script>

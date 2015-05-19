@@ -12,14 +12,18 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Modularization</a></h1>
+        <h1><a href="">Bad practices - Deeply nested selectors</a></h1>
       </header>
-      
+
       <section class="tc-content">
-        <h2>Linking to components</h2>
-        <div class="tc-center">
-          <img src="images/less.png">
-        </div>
+          <div class="tc-dialog slides">
+              <header>Hard to override rules</header>
+              <ul>
+                  <li>Need to write a lot of (also deeply nested) code just to override a rule.</li>
+                  <li>This is a new circle of hell when fixing bugs</li>
+                  <li><code>!important</code> is not a solution.</li>
+              </ul>
+          </div>
       </section>
     </div>
     <script src="js/scripts.js"></script>

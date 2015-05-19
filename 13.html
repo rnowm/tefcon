@@ -12,14 +12,18 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Matching styles to design</a></h1>
+        <h1><a href="">Bad practices - Deeply nested selectors</a></h1>
       </header>
-      
+
       <section class="tc-content">
-        <h2>How we do it</h2>
-        <div class="tc-center">
-          <img src="images/bower.png">
-        </div>
+          <div class="tc-dialog slides">
+              <header>No code re-use</header>
+              <ul>
+                  <li><code>.post > header.meta a.tag</code> versus <code>.tag</code></li>
+                  <li>No re-use of elements sharing the same properties</li>
+                  <li>Mixins can help to paliate this… but these opportunities are hard to spot</li>
+              </ul>
+          </div>
       </section>
     </div>
     <script src="js/scripts.js"></script>

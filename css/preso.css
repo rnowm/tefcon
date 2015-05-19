@@ -31,7 +31,7 @@ pre, code {
     color: #0086B3;
 }
 
-pre {
+pre, style {
     display: block;
     white-space: pre;
     border: 1px solid #cfcece;
@@ -41,6 +41,18 @@ pre {
     border-radius: 4px;
     padding: 1em 2em;
     font-size: 18px;
+}
+
+style {
+  display: block;
+  white-space: pre;
+  color: #0086B3;
+  border: 1px solid #cfcece;
+  background: #f2f2f2;
+  margin: 20px 0;
+  line-height: 25px;
+  overflow-y: auto;
+  border-radius: 4px;
 }
 
 .slides {

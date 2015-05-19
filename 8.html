@@ -12,14 +12,26 @@
       <header class="tc-header">
         <nav>
         </nav>
-        <h1><a href="">Matching styles to design</a></h1>
+        <h1><a href="">Bad practices</a></h1>
       </header>
-      
+
       <section class="tc-content">
-        <h2>Configuring bootstrap</h2>
-        <div class="tc-center">
-          <img src="images/bt_config.png">
-        </div>
+          <div class="tc-dialog slides">
+              <header>Lack of modularization</header>
+              <ul>
+                <li>You should be able to cherry pick components.</li>
+                <li>If not, you will be forced to deal with <em>unwanted</em> code.</li>
+                <li>Bigger file sizes!</li>
+              </ul>
+              <header>
+              <p>Even frameworks that support modularization should make it easy and encourage
+                  to cherry pick.</p>
+              </header>
+              <ul>
+                  <li>See those Angular plugins that include <em>all</em> Bootstrap.</li>
+                  <li>There should be a page to either download modules separately or a custom build.</li>
+              </ul>
+          </div>
       </section>
     </div>
     <script src="js/scripts.js"></script>

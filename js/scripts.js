@@ -3,7 +3,7 @@
 // Navigation
 var currentURL = window.location.pathname;
 var currentPage = currentURL.split('/').pop().slice(0, -5);
-var lastPage = 21;
+var lastPage = 32;
 currentPage = parseInt(currentPage);
 
 

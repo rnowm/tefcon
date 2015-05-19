@@ -5,53 +5,23 @@
     <title>Telefonica's Bootstrap</title>
     <link rel="stylesheet" href="css/components.min.css">
     <link rel="stylesheet" href="css/preso.css">
-    <link rel="stylesheet" href="tools/css/bp-inspector.css" media="all">
-    <script src="tools/js/jquery.min.js"></script>
   </head>
 
   <body>
-   
-        <div id="header-wrapper">
-          <header role="banner">
-            <h1>Breakpoint inspector</h1>
-            <!--div class="theme-selector">
-              <label>Change theme</label>
-              <div class="tc-dropdown" data-icon="down">
-                <select id="themeSelector">
-                  <option value="telefonica">Telefónica</option>
-                  <option value="movistar">Movistar</option>
-                  <option value="o2">O2</option>
-                  <option value="vivo">Vivo</option>
-                </select>
-              </div>
-            </div-->
-            <nav id="breakpoints"></nav>
-            <form id="bp-form">
-              <input id="bp-width" type="text" pattern="[0-9]*"> px
-            </form>
-          </header>
+    <div class="tc-wrapper">
+      <header class="tc-header">
+        <nav>
+        </nav>
+        <h1><a href="">Matching styles to design</a></h1>
+      </header>
+      
+      <section class="tc-content">
+        <h2>https://github.com/tef-components/docs</h2>
+        <div class="tc-center">
+          <img src="images/multibrand.png">
         </div>
-        <div id="main-wrapper">
-          <div id="iframe-wrapper">
-            <iframe id="iframe" src="demo-layout.html"></iframe>
-          </div>
-        </div>
-        <script src="tools/js/jwerty.js"></script>
-        <script>
-          var breakpoints = { 'XS' : '479',
-                              'SM' : '767',
-                              'MD' : '991',
-                              'LG' : '1166' }
-        </script>
-        <script src="tools/js/bp-inspector.js"></script>
-        <script>
-//          var theme = document.getElementById('themeSelector');
-//          theme.addEventListener('change', function() {
-//            var link = document.getElementById('iframe');
-//            link.src = '../theme_'
-//              + theme.value + '/index.html';
-//          });
-        </script>
+      </section>
+    </div>
     <script src="js/scripts.js"></script>
   </body>
 </html>
