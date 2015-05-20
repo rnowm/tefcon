@@ -8,6 +8,15 @@
   padding: 0;
 }
 
+.preso-link {
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+.preso-link a {
+  color: #666;
+}
+
 h2 small { font-weight: normal; }
 
 h3 {

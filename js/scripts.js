@@ -17,7 +17,7 @@ document.onkeydown = function(e) {
     e.preventDefault();
   }
   if (e.target.nodeName != 'STYLE') {
-    if (e.keyCode === 39) {
+    if (e.keyCode === 39 || e.keyCode === 32) {
       e.preventDefault();
       if (currentPage < lastPage) {
         window.location.replace((currentPage + 1) + '.html');
